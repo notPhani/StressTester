@@ -1,0 +1,11 @@
+numpy
+torch
+torchvision
+fastapi
+uvicorn
+pydantic
+json
+asyncio
+time
+struct
+math

@@ -1,0 +1,24 @@
+#hud {
+  position: absolute;
+  font-size: smaller;
+  font-weight: 100;
+  top: 20px;
+  left: 20px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff;
+  z-index: 10;
+}
+
+canvas {
+  image-rendering: auto;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+}
